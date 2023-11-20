@@ -1,65 +1,69 @@
-//let a = 10;
-//alert(a);
+/*let password = 'пароль';
+
+let userPass = String(prompt('Введите пароль'));
+
+if (userPass === password) {
+    console.log('Пароль введен верно');
+} else {
+    console.log('Пароль введен не правильно');
+}*/
 
 
-//let age = 2007;
-//alert(age);
+/*let c = 0;
+
+if (c > 0 && c < 10) {
+    console.log('Верно');
+} else {
+    console.log('Не верно');
+}*/   //(0, 10, −3, 2.) - верно только с цифрой 2
 
 
-//let name = "Brendan Eich";
-//alert(name);
+/*let d = 1001;
+let e = 10;
+
+if (d > 100 || e > 100) {
+    console.log('Верно');
+} else {
+    console.log('Не верно');
+}*/
+
+/*let a = '2';
+let b = '3';
+ 
+alert(Number(a) + Number(b));*/
 
 
-//let a = 10;
-//let b = 2;
-//alert(10 + 2)
-//alert(10 - 2)
-//alert(10 * 2)
-//alert(10 / 2)
+/*let monthNumber = 1;
 
 
-//const result = 2 ** 5;
-//alert(result);
+switch (monthNumber) {
+    case 1:
+    case 2:
+    case 12:
+        alert('Зима');    
+        break;
+    case 3:
+    case 4:
+    case 5:
+        alert('Весна');
+        break;
+    case 6:
+    case 7:
+    case 8:
+        alert('Лето');
+        break;
+    case 9:
+    case 10:
+    case 11:    
+        alert('Осень');
+        break;
+    default:
+        alert('Неизвестный месяц'); 
+}*/
 
 
-//let a = 9;
-//let b = 2;
-//alert(9 % 2)
 
 
-//let num = 1;
-//num += 5;
-//num -= 3;
-//num *= 7;
-//num /= 3;
-//num += 1;
-//num -= 1;
-//alert(num);  (непонимаю правльно или нет)
-
-
-//let age = Number(prompt('Сколько Вам лет?'));
-//alert(`Вам ${age} лет`);
-
-
-//const user = {
-    //name: 'Oleg',
-    //age: 28,
-    //isAdmin: true
-//}
-
-//user['city of residence'] = true
-
-//user.age = 18;
-
-//delete user ['city of residence']
-
-
-//let info = prompt('Какую информацию хотите узнать о пользователе?', 'name', 'age');
-//console.log(user[info]);//
-
-
-//let userName = String(prompt('Как вас зовут?'));
-//alert(`Привет ${userName} !`)
 
 
 
