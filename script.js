@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 /*let password = 'пароль';
 
 let userPass = String(prompt('Введите пароль'));
