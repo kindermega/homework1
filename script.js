@@ -1,92 +1,47 @@
+// let i = 1;
+
+// while (i <=2) {
+//     console.log('Привет');
+//     i++
+// }
 
 
+// let i = 1;
+
+// while (i <= 5) {
+//     console.log(i);
+//     i++
+// }
 
 
+// let i = 7;
+
+// while (i <= 22) {
+//     console.log(i);
+//     i++
+// }
 
 
+// let obj = {
+//     'Коля': '200',
+//     'Вася': '300',
+//     'Петя': '400',
+// }
+
+// for (let key in obj) {
+//     console.log(`${key}, зарплата ${obj[key]}`);
+// }
 
 
-/*let password = 'пароль';
-
-let userPass = String(prompt('Введите пароль'));
-
-if (userPass === password) {
-    console.log('Пароль введен верно');
-} else {
-    console.log('Пароль введен не правильно');
-}*/
+// for (let n = 1000, num = 0; n > 50; num++) {
+//     n /= 2;
+//     alert(n)
+    
+// }    (не понимаю что у меня получилсоь, сложно даются задачки, скатал с интерента((((((())))))))
 
 
+// for (let i = 1; i <= 31; i += 7) {
 
-
-/*let c = 0;
-
-if (c > 0 && c < 10) {
-    console.log('Верно');
-} else {
-    console.log('Не верно');
-}*/   //(0, 10, −3, 2.) - верно только с цифрой 2
-
-
-/*let d = 1001;
-let e = 10;
-
-if (d > 100 || e > 100) {
-    console.log('Верно');
-} else {
-    console.log('Не верно');
-}*/
-
-/*let a = '2';
-let b = '3';
- 
-alert(Number(a) + Number(b));*/
-
-
-/*let monthNumber = 1;
-
-
-switch (monthNumber) {
-    case 1:
-    case 2:
-    case 12:
-        alert('Зима');    
-        break;
-    case 3:
-    case 4:
-    case 5:
-        alert('Весна');
-        break;
-    case 6:
-    case 7:
-    case 8:
-        alert('Лето');
-        break;
-    case 9:
-    case 10:
-    case 11:    
-        alert('Осень');
-        break;
-    default:
-        alert('Неизвестный месяц'); 
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//     console.log(`Сегодня пятница ${i}-е число. Необходимо подготовить отчет.  `);
+  
+//   }
