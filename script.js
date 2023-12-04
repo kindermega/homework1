@@ -1,47 +1,112 @@
-// let i = 1;
-
-// while (i <=2) {
-//     console.log('Привет');
-//     i++
+// function min(a, b) {
+//     if (a < b) {
+//         return a;
+//     } else {
+//         return b;
+//     }  
 // }
 
+// console.log(min(6, 6));
 
-// let i = 1;
 
-// while (i <= 5) {
-//     console.log(i);
-//     i++
+// function evenOdd(n) {
+//     if (n % 2 == 0) {
+//         return 'Число четное'
+//     } else {
+//         return 'Число не четное'
+//     }
 // }
 
+// console.log(evenOdd(3));
 
-// let i = 7;
 
-// while (i <= 22) {
-//     console.log(i);
-//     i++
+// function squareNumber(n) {
+//     console.log(n * n);
 // }
 
+// squareNumber(5);
 
-// let obj = {
-//     'Коля': '200',
-//     'Вася': '300',
-//     'Петя': '400',
+
+// function squareNumber(n) {
+//     return n * n
 // }
 
-// for (let key in obj) {
-//     console.log(`${key}, зарплата ${obj[key]}`);
+// console.log(squareNumber(4));
+
+
+// function userAge() {
+//     let negativeNum = prompt('Сколько Вам лет?');
+//     if (negativeNum < 0) {
+//         return 'Вы ввели неправильное значение'
+//     } if (negativeNum >= 0 && negativeNum <= 12) {
+//         return 'Привет, друг'
+//     } if (negativeNum >= 13) {
+//         return 'Добро пожаловать!'
+//     }
 // }
 
-
-// for (let n = 1000, num = 0; n > 50; num++) {
-//     n /= 2;
-//     alert(n)
-    
-// }    (не понимаю что у меня получилсоь, сложно даются задачки, скатал с интерента((((((())))))))
+// console.log(userAge());
 
 
-// for (let i = 1; i <= 31; i += 7) {
 
-//     console.log(`Сегодня пятница ${i}-е число. Необходимо подготовить отчет.  `);
-  
-//   }
+// function correctNumber(num1, num2) {
+//     if (typeof num1 !='number' || typeof num2 !='number') {
+//         return 'Одно или оба значения не являются числом'
+//     } else {
+//         return num1 * num2
+//     }
+// }
+
+// console.log(correctNumber(3, 'Олег'));
+
+
+
+// function userCube(a, b) {
+//     if (isNaN(a) || isNaN(b)) {
+//         return 'Переданный параметр не является числом'
+//     } else {
+//         return a * b
+//     }
+// }
+
+// console.log(userCube(4, 3));
+
+
+// function cubeNumber() {
+//     let num = prompt('Введите число');
+//     num = Number(num);
+//     if (isNaN(num)) {
+//         return 'Переданный параметр не является числом'
+//     } else {
+//         return `${num} в кубе равняется ${num ** 3}`
+//     }
+// }
+
+// console.log(cubeNumber());
+
+
+// function getArea() {
+//     const area = 3.14 * this.radius ** 2;
+//     return area;
+// }
+
+// const circle1 = {
+//     radius: 7,
+//     area: getArea(),
+// }
+
+// console.log(circle1.area());
+
+// const circle2 = {
+//     radius: 10,
+//     perimeter: getPerimeter(10),
+// }
+
+// console.log(circle2.perimeter);
+
+
+
+
+
+
+
