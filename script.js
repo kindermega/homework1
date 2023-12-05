@@ -85,24 +85,28 @@
 // console.log(cubeNumber());
 
 
-// function getArea() {
-//     const area = 3.14 * this.radius ** 2;
-//     return area;
-// }
+function getArea() {
+    return Math.PI * this.radius * this.radius;
+}
 
-// const circle1 = {
-//     radius: 7,
-//     area: getArea(),
-// }
+function getPerimeter() {
+    return 2 * Math.PI * this.radius;
+}
 
-// console.log(circle1.area());
+const circle1 = {
+    radius: 5,
+    getArea,
+    getPerimeter,
+}
 
-// const circle2 = {
-//     radius: 10,
-//     perimeter: getPerimeter(10),
-// }
+const circle2 = {
+    radius: 10,
+    getArea,
+    getPerimeter,
+}
 
-// console.log(circle2.perimeter);
+circle1.getArea();
+circle2.getArea();
 
 
 
