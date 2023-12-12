@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #000915;
+}
+
+.top {
+  min-height: 1024px;
+  background-image: url(/img/Rectangle\ 1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.top__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 788px;
+}
+.top__content {
+  padding-top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  width: 488px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: block;
+  padding: 13px 74px;
+  color: #ffffff;
+  background: #9c0332;
+  border-radius: 30px;
+}
+.button:hover {
+  background: #eb443f;
+}
+
+.menu-game {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+.menu-game__item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  color: #ffffff;
+  padding: 32px;
+  min-height: 300px;
+  width: 378px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  align-items: flex-end;
+  transition: all 0.6s;
+}
+.menu-game__item:hover {
+  border: 3px solid #44d2ff;
+}
+.menu-game__item_1 {
+  background-image: url(/img/Rectangle\ 6.jpg);
+}
+.menu-game__item_2 {
+  background-image: url(/img/Rectangle\ 7.jpg);
+}
+.menu-game__item_3 {
+  background-image: url(/img/Rectangle\ 8.jpg);
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  padding-top: 233px;
+  padding-bottom: 233px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.game__content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 584px;
+  align-items: flex-start;
+}
+.game__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.game__footer {
+  min-height: 800px;
+  background-image: url(/img/unsplash_iO0I6-mhDEY.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.game__heading__footer {
+  color: white;
+  font-size: 48px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text__footer {
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.button__footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 13px 74px;
+  color: #ffffff;
+  background: #9c0332;
+  border-radius: 30px;
+}
+
+.game__content__footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 277px;
+  padding-bottom: 289px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top__content {
+    padding-top: 238px;
+    align-items: center;
+  }
+  .top__heading {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 100%;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .game {
+    gap: 64px;
+    padding-top: 50px;
+    padding-bottom: 85px;
+  }
+  .game__heading {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 100%;
+  }
+  .game__content {
+    align-items: center;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+</head>
+
+<body>
+    <section class="top center">
+        <div class="top__content">
+            <h1 class="top__heading">Добро пожаловать на мой сайт !</h1>
+            <p class="text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай поехали и
+                приступай</p>
+            <a class="button" href="">Поехали!</a>
+        </div>
+    </section>
+    <div class="menu-game center">
+        <a href="#game1" class="menu-game__item menu-game__item_1">Игра 1</a>
+        <a href="#" class="menu-game__item menu-game__item_2">Игра 2</a>
+        <a href="#" class="menu-game__item menu-game__item_3">Игра 3</a>
+    </div>
+    <section id="game1" class="game center">
+        <div class="game__content">
+            <h2 class="game__heading">Времена года!</h2>
+            <p class="text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года
+                он относится</p>
+            <a onclick="game1()" href="#" class="button">Играть!</a>
+        </div>
+        <img src="/img/game1.svg" alt="game">
+    </section>
+    <section id="game2" class="game center">
+        <img src="/img/game2.svg" alt="game">
+        <div class="game__content">
+            <h2 class="game__heading">Запомни слова!</h2>
+            <p class="text">При нажатии на кнопку играть, вы увидите несколько слов, которые Вам необходимо запомнить.
+            </p>
+            <a onclick="game2()" href="#" class="button">Играть!</a>
+        </div>
+    </section>
+    <section id="game3" class="game__footer center">
+        <div class="game__content__footer">
+            <h2 class="game__heading__footer">Игра в загадки</h2>
+            <p class="text__footer">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ,
+                то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <a class="button__footer" href="#">Играть</a>
+        </div>
+    </section>
+    <script>
+        function game1() {
+            let numerMonth = Number(prompt('Введите номер месяца'));
+            function seasons(num) {
+                if (num <= 0 || num >= 13) {
+                    alert('Вы ввели плохое число')
+                } else if (num === 1 || num === 2 || num === 12) {
+                    alert('Зима');
+                } else if (num >= 3 && num <= 5) {
+                    alert('Весна');
+                } else if (num >= 6 && num <= 8) {
+                    alert('Лето')
+                } else {
+                    alert('Осень')
+                }
+            }
+            seasons(numerMonth);
+        }
+    </script>
+</body>
+
+</html>
