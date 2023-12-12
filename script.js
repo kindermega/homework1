@@ -1,112 +1,137 @@
-// function min(a, b) {
-//     if (a < b) {
-//         return a;
-//     } else {
-//         return b;
-//     }  
+// const num = [1, 5, 4, 10, 0, 3];
+
+// for (let i = 0; i < num.length; i++) {
+//     if (num[i] == 0) break;
+//     console.log(num[i]);
 // }
 
-// console.log(min(6, 6));
+
+// const num = [1, 5, 4, 10, 0, 3];
+
+// const position = num.indexOf(4);
+
+// console.log(position);
 
 
-// function evenOdd(n) {
-//     if (n % 2 == 0) {
-//         return 'Число четное'
-//     } else {
-//         return 'Число не четное'
+// let num = [1, 3, 5, 10, 20];
+
+// num = num.join(' ');
+
+// console.log(num);
+
+
+// const arr = [];
+// for (let i = 0; i < 3; i++) {
+//   arr[i] = [];
+//   for (let j = 0; j < 3; j++) {
+//     arr[i].push(1);
+//   }
+// }
+// console.log(arr);  - один хрен не понял как решать задачу (но в clg получилось как в задании)
+
+
+// const num = [1, 1, 1];
+
+// num.push(2, 2, 2);
+
+// console.log(num);
+
+
+// let num = [9, 8, 7, 'a', 6, 5];
+
+// num = num.sort();
+
+// console.log(num.pop());
+
+// console.log(num); --- кажется бредово, но вроде получилось
+
+
+// const arr = [9, 8, 7, 6, 5];
+
+// if (arr.includes(Number(prompt('Угадай число')))) {
+//     console.log('угадал');
+// } else {
+//     console.log('не угадал');
+// }
+
+
+// let str = 'abcdef';
+
+// console.log(str.split('').reverse().join(''));
+
+
+// const arr = [[1, 2, 3,],[4, 5, 6]];
+
+// const inArr = arr.flat();
+
+// console.log(inArr);
+
+
+// const arr = [1, 2, 5, 6, 8];
+
+// for (let i = 0; i < arr.length - 1; i++) {
+//     console.log(arr[i] + arr[i + 1]);
+    
+// } --- ну это перебор, что значит arr.length - 1?!  и что значит arr [i + 1]
+
+
+// function accAntry(arr) {
+//     return arr.map(num => num * num);
+// }
+
+// const arrAy = [1, 4, 6, 5];
+
+// console.log(accAntry(arrAy));  --- вроде бы работает
+
+
+// const getLengthWords = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+
+// const arrAy = [];
+
+// for (let i = 0; i < getLengthWords.length; i++) {
+//     arrAy.push(getLengthWords[i].length);
+//     console.log(arrAy);
+    
+// }
+
+
+// function filterPositive(array) {
+
+//     const negative = []; 
+
+//     for (let i = 0; i < array.length; i++) {
+
+//         if (array[i] < 0) { 
+
+//             negative.push(array[i]) 
+
+//         }
+
 //     }
+
+//     return negative 
+
 // }
 
-// console.log(evenOdd(3));
 
 
-// function squareNumber(n) {
-//     console.log(n * n);
-// }
-
-// squareNumber(5);
-
-
-// function squareNumber(n) {
-//     return n * n
-// }
-
-// console.log(squareNumber(4));
-
-
-// function userAge() {
-//     let negativeNum = prompt('Сколько Вам лет?');
-//     if (negativeNum < 0) {
-//         return 'Вы ввели неправильное значение'
-//     } if (negativeNum >= 0 && negativeNum <= 12) {
-//         return 'Привет, друг'
-//     } if (negativeNum >= 13) {
-//         return 'Добро пожаловать!'
-//     }
-// }
-
-// console.log(userAge());
+// console.log(filterPositive([-1, 0, 5, -10, 56]));
 
 
 
-// function correctNumber(num1, num2) {
-//     if (typeof num1 !='number' || typeof num2 !='number') {
-//         return 'Одно или оба значения не являются числом'
-//     } else {
-//         return num1 * num2
-//     }
-// }
-
-// console.log(correctNumber(3, 'Олег'));
 
 
 
-// function userCube(a, b) {
-//     if (isNaN(a) || isNaN(b)) {
-//         return 'Переданный параметр не является числом'
-//     } else {
-//         return a * b
-//     }
-// }
-
-// console.log(userCube(4, 3));
 
 
-// function cubeNumber() {
-//     let num = prompt('Введите число');
-//     num = Number(num);
-//     if (isNaN(num)) {
-//         return 'Переданный параметр не является числом'
-//     } else {
-//         return `${num} в кубе равняется ${num ** 3}`
-//     }
-// }
-
-// console.log(cubeNumber());
 
 
-function getArea() {
-    return Math.PI * this.radius * this.radius;
-}
 
-function getPerimeter() {
-    return 2 * Math.PI * this.radius;
-}
 
-const circle1 = {
-    radius: 5,
-    getArea,
-    getPerimeter,
-}
 
-const circle2 = {
-    radius: 10,
-    getArea,
-    getPerimeter,
-}
 
-circle1.getArea();
-circle2.getArea();
+
+
 
 
 

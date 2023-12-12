@@ -130,6 +130,52 @@ body {
   color: #ffffff;
 }
 
+.game__footer {
+  min-height: 800px;
+  background-image: url(/img/unsplash_iO0I6-mhDEY.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.game__heading__footer {
+  color: white;
+  font-size: 48px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text__footer {
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.button__footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 13px 74px;
+  color: #ffffff;
+  background: #9c0332;
+  border-radius: 30px;
+}
+
+.game__content__footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 277px;
+  padding-bottom: 289px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
